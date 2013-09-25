@@ -4,7 +4,7 @@ public class Review {
 
 	
 	
-	private long id;
+	private int id;
 	private int rating;
 	private String comment;
 	
@@ -13,7 +13,7 @@ public class Review {
 		return id;
 	}
 	
-	public void setReviewId(long id){
+	public void setReviewId(int id){
 		this.id=id;
 	}
 	
